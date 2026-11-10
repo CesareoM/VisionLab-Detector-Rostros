@@ -1,0 +1,35 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos locales
+*.log
+desktop.ini
+.DS_Store
+.vscode/
+
+# Bases de datos y archivos generados
+db.sqlite3
+*.sqlite3
+
+# Herramientas y pruebas
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Archivos temporales
+*.tmp
+*.bak

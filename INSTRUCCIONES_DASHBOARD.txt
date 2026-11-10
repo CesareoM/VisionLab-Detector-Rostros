@@ -1,0 +1,11 @@
+VISIONLAB - DASHBOARD MODERNO
+
+Para actualizar tu proyecto que ya funciona:
+1. Haz una copia del archivo original: templates/detector/home.html
+2. Sustituyelo por el nuevo home.html de este proyecto.
+3. NO modifiques tu .env ni tu base de datos.
+4. Inicia Django: python manage.py runserver
+5. Abre http://127.0.0.1:8000/ y presiona Ctrl+F5.
+
+Este ZIP es una copia LIMPIA: omite intencionalmente .env, .venv, credenciales, y cache.
+Si deseas instalar desde cero, crea .env basado en .env.example, configura tu servidor PostgreSQL y crea tu propio entorno Python.
